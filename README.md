@@ -55,6 +55,20 @@ var street = client.getHashElement('de:berlin:streets', 'orainerburgerstr. 69, 1
 	client.setHashElement('de:berlin:streets', 'orainerburgerstr. 69, 10150, Berlin', callback);
 });
 
+### getValues()
+
+helper with wildcard support,
+
+```js
+var streets = client.getValues('de:berlin:streets:*', function (err, results) {
+	if (err) {
+		return callback(err);
+	}
+
+	console.log(results);
+});
+```
+
 ### Types
 
 ## Licence
