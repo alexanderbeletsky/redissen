@@ -1,6 +1,6 @@
 # Redissen
 
-Wrapper around native Redis driver with convinence API for JavaScript.
+Wrapper of native Redis driver with convinence API for JavaScript.
 
 ## Description
 
