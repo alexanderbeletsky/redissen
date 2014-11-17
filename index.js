@@ -11,3 +11,5 @@ function client(options) {
 		}
 	};
 }
+
+module.exports = client;
