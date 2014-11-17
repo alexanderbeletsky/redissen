@@ -2,6 +2,8 @@
 
 Wrapper of native Redis driver with convinence API for JavaScript.
 
+*Work in progress, nothing serious yet.*
+
 ## Description
 
 ## API
@@ -70,6 +72,8 @@ var streets = client.getValues('de:berlin:streets:*', function (err, results) {
 ```
 
 ### Types
+
+TDB.
 
 ## Licence
 
