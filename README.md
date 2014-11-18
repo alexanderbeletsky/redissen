@@ -1,12 +1,12 @@
 # Redissen
 
-Wrapper of native Redis driver with convinence API for JavaScript.
+Wrapper of native Redis driver with convenience API for JavaScript.
 
-*Work in progress, nothing serious yet.*
+**Work in progress, nothing serious yet.**
 
 ## Description
 
-## API
+TDB.
 
 ### Client
 
@@ -46,7 +46,6 @@ var streets = client.getHash('de:berlin:streets', function (err, streets) {
 fetch and update one element in Redis hash,
 
 ```js
-
 var street = client.getHashElement('de:berlin:streets', 'orainerburgerstr. 69, 10150, Berlin', function (err, result) {
 	if (err) {
 		return callback(err);
@@ -56,6 +55,7 @@ var street = client.getHashElement('de:berlin:streets', 'orainerburgerstr. 69, 1
 
 	client.setHashElement('de:berlin:streets', 'orainerburgerstr. 69, 10150, Berlin', callback);
 });
+```
 
 ### getValues()
 
